@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Error !</title>
+  <style media="screen">
+    body {
+      background: #dedede;
+    }
+
+    .page-wrap {
+      min-height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="/failure" method="post">
+
+    <div class="page-wrap d-flex flex-row align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+            <span class="display-1 d-block">404</span>
+            <div class="mb-4 lead">The page you are looking for was not found.</div>
+            <button type="submit" name="submit" class="btn btn-lg btn-danger"> Back to Home </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
+</body>
+
+</html>

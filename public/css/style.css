@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #E4F9F5;
+}
+.bottom-cloud{
+  position:absolute;
+  left:110px;
+  bottom:400px;
+}
+.top-cloud{
+  position:relative;
+  left:400px;
+}
+h1{
+  font-size: 6rem;
+  margin:25px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color:#66BFBF;
+  line-height: 2;
+}
+
+h2{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color:#40514E;
+  line-height: 2;
+}
+.image{
+  background-color: #E4F9F5;
+  padding-top:50px;
+  margin-bottom: 20px;
+}
+.skills-img{
+  height:100px;
+  float:left;
+}
+.skill-row{
+  width:50%;
+  margin:0 auto 0 auto;
+  height: 100px;
+}
+.c-img{
+  height: 100px;
+  float: right;
+  margin-left: 10px;
+}
+.cpp-img{
+  height:100px;
+  float:left;
+}
+hr{
+  width:5%;
+  border-style: dotted none none none;
+height: 3px;
+border-width: 5px;
+background-color: #EAF6F6;
+}
+.skills{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.bottom-container{
+  padding-top: 25px;
+padding-bottom: 5px;
+background-color: #66BFBF;
+}
+.profile{
+  padding-top: 15px;
+  margin-bottom:45px;
+}
+.Games{
+  text-align: center;
+  list-style: inside;
+}
